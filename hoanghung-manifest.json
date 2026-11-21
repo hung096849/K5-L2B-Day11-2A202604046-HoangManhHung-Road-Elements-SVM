@@ -1,0 +1,48 @@
+{
+  "manifest": "road-delivery/1",
+  "format": "CVAT for images 1.1",
+  "guideline": "Road v1.0",
+  "name": "hoanghung",
+  "revision": 2,
+  "created_at": "2026-11-21T08:17:57+00:00",
+  "files": [
+    {
+      "file": "hoanghung-front.zip",
+      "bytes": 4653,
+      "sha256": "06f731142de8cb6c2a5c24ab53bf495b74c8f8e541457349673c6ecf56e2131f",
+      "contains_images": false,
+      "images": 12,
+      "images_unlabelled": 0,
+      "images_all_tags": 12,
+      "shapes_by_label": {
+        "crosswalk": 6,
+        "lane": 26,
+        "road_curb": 4,
+        "traffic_light": 36,
+        "traffic_sign": 12
+      }
+    },
+    {
+      "file": "hoanghung-fisheye.zip",
+      "bytes": 3136,
+      "sha256": "3d45490076184e7e496780bb23c53404b7df581950d56757666f9fe4bd5826e3",
+      "contains_images": false,
+      "images": 8,
+      "images_unlabelled": 0,
+      "images_all_tags": 8,
+      "shapes_by_label": {
+        "crosswalk": 7,
+        "lane": 6,
+        "road_curb": 6,
+        "traffic_light": 4,
+        "traffic_sign": 1
+      }
+    }
+  ],
+  "lint": {
+    "nặng": 4,
+    "chính": 14,
+    "nhẹ": 5
+  },
+  "note": "Tạo bởi road_check lint. Mô tả file đã gửi, không phải kết luận chất lượng."
+}
